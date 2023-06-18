@@ -1,0 +1,286 @@
+body {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    background: #FFFFFF;
+    width: 1200px;
+    margin: auto;
+}
+
+.about-me {
+    margin-bottom: 40px;
+}
+.my-name {
+        
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 55px;
+        margin-bottom: 8px;
+}
+
+.my-summary {
+   
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #595959;
+}
+
+.main-content {
+    padding-left: 88px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 40px;
+
+}
+
+.main-content-title {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        color: #000000;
+        padding-bottom: 8px;
+}
+
+
+
+
+.sidebar {background: #DFEEFF;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.cont-header {color: #161D2A;}
+
+
+.sidebar-cont {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+
+.sidebar-title {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        color: #161D2A;
+        margin-bottom: 8px;
+}
+
+.contacs-container {
+    margin-bottom: 40px;
+}
+
+.contacs-item {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #161D2A;
+}
+
+.contacs-link {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #2979FF;
+}
+
+
+.skils-content {
+    margin-bottom: 40px;
+}
+
+.skill-item {
+    font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: #161D2A;
+        list-style: disc;
+        padding-left: 20px;
+}
+
+
+.my-profession {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+
+.projects-container {
+    margin-bottom: 44px;
+    
+}
+
+.project-items {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000;
+        list-style: decimal;
+        padding-left: 20px;
+      
+}
+
+.projects-link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #2979FF;
+}
+
+.ptoject-teck {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+.company-position {
+font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+
+.CP-acent {
+color: #6096FF;
+}
+
+.company-period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    padding-bottom: 8px;
+}
+
+.company-conteiner {
+    margin-bottom: 10px;
+}
+
+.edu-container {
+    margin-top: 40px;
+}
+
+.edu-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6096FF;
+    padding-bottom: 8px;
+  
+}
+
+.edu-prof {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-bottom: 8px;
+}
+
+@media screen and (max-width: 1240px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main-content {
+        padding-left: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 40px;
+    }
+    .my-photo {
+        width: 350px;
+    }
+    
+}
+
+@media screen and (max-width: 910px) {
+    .wrapper {flex-direction: column-reverse;}
+    .sidebar {
+        display: flex;
+        align-items: flex-start;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .sidebar-cont {
+        padding-top: 0px;
+        padding-right: 0px;
+        display: flex;
+        flex-wrap: wrap;
+
+       
+    }
+    .skill-row {
+        display: flex;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    body {
+        padding:0px        ;
+    }
+    .sidebar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-photo {
+        margin-bottom: 20px;
+        width: 350px;
+    }
+    .sidebar-cont {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .main-content {
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+    .skill-row {
+        flex-direction: column;
+        padding-right: 0px;
+    }
+    .sidebar-cont {
+        align-items: flex-start;
+    }
+}
+
